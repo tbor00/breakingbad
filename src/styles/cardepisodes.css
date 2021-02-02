@@ -1,0 +1,30 @@
+.block {
+    display: block !important;
+}
+
+.episodes {
+    margin-top: 20px;
+    width: 18rem;
+    color:white!important;  
+    background-color: #000000;
+    background-image: url("https://avatarfiles.alphacoders.com/232/thumb-1920-232137.jpg");
+    background-color: rgb(39, 38, 38) !important;
+    background-blend-mode: soft-light !important;
+    border-radius: 10px !important;
+    transition:all .5s ease-in-out;       
+    -webkit-transform:scale(0.9);transform:scale(0.9);
+}
+
+.characteres {
+    margin-top: 20px;
+    width: 18rem;
+    color:white!important;  
+    background-color: #282b38e7;
+    border-radius: 10px !important;
+}
+
+.episodes:hover {
+    transition:all .5s ease-in-out;
+    
+    -webkit-transform:scale(1);transform:scale(1);
+}
